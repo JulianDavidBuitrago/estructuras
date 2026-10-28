@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bosque de Datos · Estructuras de datos en Python</title>
+  <meta name="description" content="Juego interactivo para practicar nodos, pilas, colas y árboles en Python.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="topbar no-print">
+    <button class="brand" id="brand" title="Ir al inicio">
+      <span class="brand-logo">🌳</span>
+      <span class="brand-name">Bosque de <b>Datos</b></span>
+    </button>
+    <div class="top-stats">
+      <span class="rank" id="rank"></span>
+      <span class="xp-pill" id="xp"></span>
+      <button class="icon-btn" id="btn-sound" title="Activar o silenciar sonido">🔊</button>
+      <button class="icon-btn" id="btn-help" title="Instrucciones">?</button>
+    </div>
+  </header>
+
+  <main id="app" class="app"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/tree.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
