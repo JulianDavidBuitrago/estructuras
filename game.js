@@ -979,14 +979,14 @@
           h('li', {}, 'Lee siempre la explicación después de cada reto, incluso si acertaste.'),
           h('li', {}, 'Tu progreso se guarda automáticamente en este navegador.')),
 
-        h('div', { class: 'teacher-box' },
+        /* h('div', { class: 'teacher-box' },
           h('h3', {}, '👩‍🏫 Opciones para el docente'),
           h('label', { class: 'switch' }, teacherToggle, h('span', {}, 'Modo docente: desbloquear todos los niveles y la evaluación')),
           h('button', {
             class: 'btn ghost small', onclick: () => {
               if (confirm('¿Borrar todo el progreso guardado en este navegador?')) { state = defaultState(); state.seenHelp = true; save(); toast('Progreso reiniciado.'); showHome(); }
             }
-          }, '🗑️ Reiniciar progreso')),
+          }, '🗑️ Reiniciar progreso')), */
 
         h('div', { class: 'row-center' }, h('button', { class: 'btn primary lg', onclick: () => showHome() }, '¡Entendido, a jugar! 🚀')))));
     TreeKit.draw($('#help-tree'), demoTree);
